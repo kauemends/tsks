@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tsks.</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo-section">
+            <figure>
+
+            </figure>
+
+            <h1>
+                tsks.
+            </h1>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h3>Dashboard</h3>
+
+            <h2 class="current-time"></h2>
+
+            <div class="new-task-section">
+                <button id="new-task-button" class="new-task-button">+</button>
+                <input type="text" placeholder="Add a task" class="new-task-name">
+            </div>
+        </section>
+
+        <section class="current-tasks-section">
+            <p>Tasks</p>
+
+            <ul id="current-tasks">
+                <li><input type="checkbox"><label data-content="Hit the gym">Hit the gym</label></li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="createTask.js"></script>
+    <script src="currentTime.js"></script>
+</body>
+</html>
