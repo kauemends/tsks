@@ -23,5 +23,17 @@ document.querySelector('#new-task-button').onclick = function(){
                 this.parentNode.remove();
             }
         }
-    }
+
+        document.querySelector('#new-task-section input').value = ""
 }
+}
+
+const input = document.getElementById("new-task-name")
+
+input.addEventListener("keyup", function(event) {
+
+    if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("new-task-button").click();
+  }
+})

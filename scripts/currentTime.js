@@ -1,9 +1,10 @@
+const username = window.prompt("Enter your name: ");
 const today = new Date();
 const time = today.getHours()
 const h2 = document.getElementsByClassName("current-time")
-const morning = document.createTextNode("Good morning")
-const afternoon = document.createTextNode("Good afternoon")
-const night = document.createTextNode("Good night")
+const morning = document.createTextNode(`Good morning, ${username}`)
+const afternoon = document.createTextNode(`Good afternoon, ${username}`)
+const night = document.createTextNode(`Good night, ${username}`)
 
 
 function currentTime() {
@@ -11,10 +12,9 @@ function currentTime() {
         h2[0].appendChild(morning)
     } if (time <= 17 && time >= 12) {
         h2[0].appendChild(afternoon)
-    } if (time <= 23 && time >= 0) {
+    } if (time <= 4 || time >= 18) {
         h2[0].appendChild(night)
     }
 }
 
-console.log(time);
 currentTime();
