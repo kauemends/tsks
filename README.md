@@ -8,7 +8,7 @@
 
 ## Adições futuras
 
-[] Deixar tarefas salvas no localStorage.
-[] Criar e acessar usuário.
-[] Adicionar categorias a suas tarefas.
-[] Adicionar prioridade a suas tarefas.
+- Deixar tarefas salvas no localStorage.
+- Criar e acessar usuário.
+- Adicionar categorias a suas tarefas.
+- Adicionar prioridade a suas tarefas.
