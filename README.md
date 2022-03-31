@@ -8,6 +8,7 @@
 
 ## Adições futuras
 
+- Adicionar responsividade para mobile.
 - Deixar tarefas salvas no localStorage.
 - Criar e acessar usuário.
 - Adicionar categorias a suas tarefas.
